@@ -1,0 +1,65 @@
+table{
+    width: 800px;
+    box-shadow: 3px 3px 33px -2px rgba(171,171,171,1);
+    margin: auto;
+   
+}
+
+.flex-container:{
+    display: flex;
+    width: 100%;
+    height: 1200px;
+    justify-content: center;
+    align-content: center;
+    background-position: 50% 50%;
+}
+
+caption{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 200;
+    font-size: 35px;
+    color: #b22222;
+}
+
+th{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 200;
+    background: #b22222;
+    color: rgb(243, 217, 217);
+}
+
+td{
+   font-family: sans-serif;
+   font-weight: 400; 
+   border-bottom: solid 1px rgb(179, 179, 179);
+}
+
+th, td{
+    padding: 20px;
+}
+
+.grey{
+    background: #ddd;
+}
+
+.table-container{
+    border-collapse: collapse;
+
+}
+
+.h-time, .time{
+    text-align: left;
+    
+}
+
+.h-temp, .temp{
+    text-align: right;
+  
+}
+
+.h-humid, .humid{
+    text-align: right;
+    
+}
